@@ -15,8 +15,6 @@ fizzBuzz(55);
 fizzBuzz(120);
 fizzBuzz(9999);
 
-//
-
 function average(arr) {
   if (arr.length === 0) {
     return 0;
@@ -34,8 +32,6 @@ const prices = [12.99, 17.75, 88.12, 111.11, 77.09, 53.45];
 let result = average(prices);
 console.log(result);
 
-//
-
 function celToFah(celsius) {
   const fahrenheit = (celsius * 9) / 5 + 32;
   return parseFloat(fahrenheit.toFixed(2));
@@ -48,8 +44,6 @@ function celToKel(celsius) {
   console.log(celToFah(37.5));
   console.log(celToFah(-40));
   console.log(celToKel(173.13));
-
-  //
 
   function pow(base, exponent) {
     if (exponent === 0) {
